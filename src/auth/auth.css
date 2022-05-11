@@ -1,0 +1,68 @@
+/*================================================================================= 
+Registration page
+===================================================================================*/
+.signup-page-image {
+  width: 588px !important;
+  height: 473px !important;
+}
+
+@media (max-width : 992px) {
+  .signup-page-image {
+    width: 365px !important;
+    height: 300px !important;
+  }
+}
+
+/*================================================================================= 
+Login Page 
+===================================================================================*/
+.g-signin {
+ width: 300px !important;
+ height: 70px !important;
+}
+
+.Log-in {
+  font-size: 20px !important;
+  font-weight: bold !important;
+}
+
+.Login-para {
+  font-size: 12px !important;
+}
+
+.digikaagaz-login {
+ text-align: center !important;
+ margin-top: 20% !important
+}
+
+.or-option {
+ display: flex;
+ flex-direction: row;
+ color: #989898;
+ font-size: 15px;
+}
+
+.or-option p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.or-option hr {
+  width: 300px;
+}
+
+.social-app-login {
+  display: flex;
+  width: 100px !important;
+}
+
+.facebook-login {
+  width: 100% !important;
+  font-size: 12px !important;
+}
+
+@media (max-width : 992px) {
+  .digikaagaz-login {
+    text-align: center !important;
+  }
+}
